@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ads volt</title>
+        <link rel="icon" type="image/jpg" href="./Volt.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./main.css">
+    <style>
+        body {background-image: url("./Background.png"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; max-width: 100vw;}
+        hr {height: 5px; background-color: #ffffff;}
+
+        .logo1 {width: 100px;}
+        .logo2 {width: 100px;}
+        .profile {width: 200px;}
+        .chandigarh {width: 200px; z-index: -1;}
+        .image_border {border-radius: 15px;}
+
+        .color_main {color:#b1b1b1;}
+        .heading_size_1 {font-size: 50px;}
+        .heading_size_2 {font-size: 30px;}
+        .button_size {font-size: 20px;}
+        .body_text_size {font-size: 20px;}
+        .body_text_size {font-size: 20px;}
+
+        .box {width: 90%; margin: 20px auto; background: rgb(0 0 0 / 70%); border-radius: 15px;}
+        .box_inner {margin: 10px;}
+        .title {display: flex; justify-content: space-between;}  
+        .home-outer {display: flex; justify-content: space-between;}
+        .about_me {display: flex; justify-content: space-between;}
+        .tripple_flex_wrap {display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;}
+        .highlight {flex: 0 0 calc(33.333% - 15px); box-sizing: border-box; padding: 20px; border-radius: 15px; text-align: center;}
+        .highlight:hover {background: radial-gradient(rgba(182, 35, 35, 0),#e45858);}
+
+        .libertinus-serif-regular {font-family: "Libertinus Serif", serif; font-weight: 400; font-style: normal;}
+        .libertinus-serif-semibold {font-family: "Libertinus Serif", serif; font-weight: 600; font-style: normal;}
+        .libertinus-serif-bold {font-family: "Libertinus Serif", serif; font-weight: 700; font-style: normal;}
+        .libertinus-serif-regular-italic {font-family: "Libertinus Serif", serif; font-weight: 400; font-style: italic;}
+        .libertinus-serif-semibold-italic {font-family: "Libertinus Serif", serif; font-weight: 600; font-style: italic;}
+        .libertinus-serif-bold-italic {font-family: "Libertinus Serif", serif; font-weight: 700; font-style: italic;}
+    
+        a{transition: all 0.3s; cursor: pointer;}
+        a:hover{color:red;}
+    </style>
+    </head>
+    <body>
+        <div class = "box">
+            <div class="box_inner">
+                <a style="position:fixed; right : 20px; bottom: 20px" href="#back" class="color_main button_size back_button"> Back </a>
+                <div class="title">
+                    <div><br><img id = "back" src="./logo1.png" class="logo1 image_border" alt="Logo"></div>
+                    <div><h1 style="text-align: center;" class="color_main heading_size_1 libertinus-serif-bold"> Aditya Singh: Just a random Iitian </h1></div>
+                    <div><br><img src="./logo2.jpeg" class="logo2 image_border" alt="Logo"></div>
+                </div>
+                <br>
+                <hr>
+                <div class="about_me">
+                    <div>
+                        <h1 id="about" class="color_main heading_size_1 libertinus-serif-semibold"> About me </h1>
+                        <p class="color_main body_text_size libertinus-serif-regular-italic"> I am just a gamer that wants to make money and use that money to do some good in the world.<br>
+                            Trying to stay cool in the face of ever thinning odds and doing my best to stay on top of whatever the world throws at me.<br><br>
+                            My interests are:
+                        </p>
+                        <ul class="color_main body_text_size libertinus-serif-regular-italic">
+                            <li>Gaming</li>
+                            <li>Music (probably not what you expect however)</li>
+                            <li>Coding / leetCode griding</li>
+                            <li>Eating good food</li>
+                            <li>Sleeping</li>
+                        </ul>
+                    </div>
+                    <div><br><br><img src="./pfp.png" class="profile image_border" alt="portrate"></div>
+                </div>
+                <hr>
+                <div>
+                    <a href="#about" class="color_main button_size"> About me</a>
+                    <span class="color_main"> | </span>
+                    <a href="#courses" class="color_main button_size"> Courses</a>
+                    <span class="color_main"> | </span>
+                    <a href="#home" class="color_main button_size"> My Home</a>
+                    <span class="color_main"> | </span>
+                    <a href="#Links" class="color_main button_size"> Links and downloads</a>
+                    <span class="color_main bib"> | </span>
+                    <a href="#Bib" class="color_main button_size bib"> Bibliography</a>
+                    <span class="color_main bib"> | </span>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="color_main button_size bib"> Hobbies</a>
+                </div>
+                <hr>
+                <div> 
+                    <h1 id="courses" class="color_main heading_size_1 libertinus-serif-semibold"> Courses </h1>
+                    <div style="margin: 50px;" class="tripple_flex_wrap">
+                        <div style="text-align: center;" class="highlight">
+                            <h2 class="color_main heading_size_2 libertinus-serif-regular"> SL: CS699 </h2>
+                            <span class="color_main body_text_size libertinus-serif-regular-italic">Really eager to learn all that is being tought</span>
+                        </div>
+                        <div style="text-align: center;" class="highlight">
+                            <h2 class="color_main heading_size_2 libertinus-serif-regular"> DCS: CS744 </h2>    
+                            <span class="color_main body_text_size libertinus-serif-regular-italic">I am not sure if I love this but I am definitely willing to learn.</span>                     
+                        </div>
+                        <div style="text-align: center;" class="highlight">
+                            <h2 class="color_main heading_size_2 libertinus-serif-regular"> DSA: CS213 </h2>
+                            <span class="color_main body_text_size libertinus-serif-regular-italic">I want to learn this because I couldn't before. RIP -_- </span>
+                        </div>
+                        <div style="text-align: center;" class="highlight">
+                            <h2 class="color_main heading_size_2 libertinus-serif-regular">FM: CS771 </h2>
+                            <span class="color_main body_text_size libertinus-serif-regular-italic">I had to drop this but really wanted to. The prof seemed so nice.</span>
+                        </div>
+                        <div style="text-align: center;" class="highlight">
+                            <h2 class="color_main heading_size_2 libertinus-serif-regular">PA: CS618 </h2>
+                            <span class="color_main body_text_size libertinus-serif-regular-italic">Seems extemely useful in today's market.</span>
+                        </div>
+                        <div style="text-align: center;" class="highlight">
+                            <h2 class="color_main heading_size_2 libertinus-serif-regular"> FML: CS725</h2>
+                            <span class="color_main body_text_size libertinus-serif-regular-italic">Oh I definately want to do this, very passionate about this.</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="home-outer">
+                    <div>
+                        <h1 id="home" class="color_main heading_size_1 libertinus-serif-semibold">My Home</h1>
+                        <p class="color_main body_text_size libertinus-serif-regular-italic" style="width: 75vw;">I come from India's hood also known as Punjab, it's a very nice place. Especially Chandigarh, the city I am from.
+                        Chandigarh is also known as the "city beautiful", I don't fully agree with the moniker but it certianly is not bad.
+                        We have a lot of exotic birds that migrate from Europe and Russia in the winters to Sukhna lake.
+                        Let me tell you a silly story about Chandigarh, everyone knows that we have roundabouts.
+                        Now here is the thing, at some point the administration wanted to get rid of them but a 10 year old was so opposed to the idea that he petitioned the government to not remove them, and the HC actually listened.<br>  
+                        </p>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <img src="./Chandigarh.jpg" class="chandigarh image_border" alt="Chandigarh">
+                    </div>
+                </div>
+                <hr>
+                <h1 id="Links" class="color_main heading_size_1 libertinus-serif-semibold">Links and Downloads</h1>
+                <a href="https://github.com/HawkWeldon" class="color_main button_size">My github</a> <br>
+                <a href="mailto:ablealphpie@gmail.com" class="color_main button_size">ablealphpie@gmail.com</a> <br>
+                <a href="./Resume_22_05_2024.pdf" download class="color_main button_size">My resume</a> <br>
+                <div class="bib">
+                    <hr>
+                    <h1 id="Bib" class="color_main heading_size_1 libertinus-serif-semibold">Bibliography</h1>
+                    <ol class="color_main body_text_size">
+                            <li>Logo1 <a href="https://www.cse.iitb.ac.in/~sarvesh/iitb_logo.gif" class="color_main button_size">https://www.cse.iitb.ac.in/~sarvesh/iitb_logo.gif</a> </li>
+                            <li>Logo2 <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0FcRE3hfNOCn2D6h91_OkCc88D5MCuMd68h5cRv8LfA&s" class="color_main button_size">https://encrypted-tbn0.gstatic.com/...</a> <br></li>
+                            <li>Portate <a href="https://x.com/lordhamstr" class="color_main button_size">https://x.com/lordhamstr</a> <br></li>
+                            <li>Chandigarh logo <a href="https://www.facebook.com/chandigarhthecitybeautifull.ut/" class="color_main button_size">https://www.facebook.com/...</a> <br> </li>
+                            <li>Background <a href="https://chatgpt.com/" class="color_main button_size">https://chatgpt.com/</a> <br></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

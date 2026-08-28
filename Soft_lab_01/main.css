@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) 
+{
+        .logo1 {position: absolute; top: 15px; left: 15px; width: 100px; display: none;}
+        .logo2 {position: absolute; top: 15px; right: 15px; width: 100px; display: none;}
+        .profile {position: absolute; top: 210px; right: 15px; width: 200px; display: none;}
+        .chandigarh {position: absolute ; top: 1570px; right: 15px; width: 200px; z-index: -1; display: none;}
+        .bib {display: none;}
+        .back_button {display: none;}
+        .tripple_flex_wrap {display: flex; flex-direction: column; gap: 20px;}
+        .highlight {width: 100%; padding: 20px; box-sizing: border-box;}
+}
