@@ -18,7 +18,7 @@ hawk     tty1         :0               Fri Aug 14 17:39 - 21:23 (1+03:43)
 reboot   system boot  6.18.42          Fri Aug 14 17:39 - crash (-3877+14:46)
 hawk     tty1         :0               Wed Aug 12 17:47 - 12:18 (1+18:31)
 
-Number of unique users who logged in:2
+Number of unique users who logged in: 2
 
 Most Recent Login:
 hawk     tty1         :0               Sat Aug 29 22:35   still logged in

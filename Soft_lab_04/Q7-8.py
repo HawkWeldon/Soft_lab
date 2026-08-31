@@ -63,7 +63,7 @@ with open("Q7-8.txt", "w") as file:
     for line in last_10:
         file.write(line + "\n")
 
-    file.write(f"\nNumber of unique users who logged in:"f"{len(unique_users)}\n")
+    file.write(f"\nNumber of unique users who logged in: "f"{len(unique_users)}\n")
 
     file.write("\nMost Recent Login:\n")
 
