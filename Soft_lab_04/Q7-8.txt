@@ -1,0 +1,25 @@
+========== LOGIN REPORT ==========
+Currently Logged-in Users:
+User: hawk	Login Time: 2026-08-29 22:35 (:0)
+
+Number of logged-in users: 1
+
+Is 'hawk' currently logged in? Yes
+
+Last 10 User Logins:
+hawk     tty1         :0               Sat Aug 29 22:35   still logged in
+reboot   system boot  6.18.42          Sat Aug 29 22:34   still running
+hawk     tty1         :0               Tue Aug 25 16:40 - 22:34 (4+05:54)
+reboot   system boot  6.18.42          Tue Aug 25 16:39 - 22:34 (4+05:54)
+hawk     tty1         :0               Sat Jan  2 02:53 - crash (3888+13:46)
+reboot   system boot  6.18.42          Sat Jan  2 02:53 - crash (3888+13:46)
+hawk     tty1         :0               Sat Aug 15 21:23 - crash (-3878+18:30)
+hawk     tty1         :0               Fri Aug 14 17:39 - 21:23 (1+03:43)
+reboot   system boot  6.18.42          Fri Aug 14 17:39 - crash (-3877+14:46)
+hawk     tty1         :0               Wed Aug 12 17:47 - 12:18 (1+18:31)
+
+Number of unique users who logged in:2
+
+Most Recent Login:
+hawk     tty1         :0               Sat Aug 29 22:35   still logged in
+==================================
