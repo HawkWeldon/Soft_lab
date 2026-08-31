@@ -1,0 +1,11 @@
+StudentID,FirstName,LastName,Age,Gender,Department,Year,GPA,Email
+1001,Alice,Johnson,20,Female,Computer Science,2,3.82,alice.johnson@example.com
+1002,Bob,Smith,21,Male,Electrical Engineering,3,3.45,bob.smith@example.com
+1003,Carol,Lee,19,Female,Mechanical Engineering,1,3.91,carol.lee@example.com
+1004,David,Brown,22,Male,Civil Engineering,4,3.28,david.brown@example.com
+1005,Emma,Davis,20,Female,Mathematics,2,3.74,emma.davis@example.com
+1006,Frank,Wilson,23,Male,Physics,4,3.12,frank.wilson@example.com
+1007,Grace,Taylor,21,Female,Chemistry,3,3.68,grace.taylor@example.com
+1008,Henry,Moore,19,Male,Computer Science,1,3.55,henry.moore@example.com
+1009,Isabella,Thomas,22,Female,Data Science,4,3.96,isabella.thomas@example.com
+1010,Jack,Martin,20,Male,Information Technology,2,3.37,jack.martin@example.com

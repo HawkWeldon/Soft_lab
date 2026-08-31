@@ -1,0 +1,24 @@
+Date + time
+Tuesday 18 August 2026 01:20:39 PM IST
+
+User
+hawk
+
+Host
+nixos
+
+current dir
+/run/media/hawk/D-drive/Fox/Software_lab/Soft_02/Inclass_assignments
+
+Available disk space
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  915G  225G  644G  26% /
+
+Available memory
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi       9.2Gi        17Gi       254Mi       4.9Gi        21Gi
+Swap:             0B          0B          0B
+
+Uptime
+ 13:20:39  up 3 days 19:40,  1 user,  load average: 0.52, 0.42, 0.32
+
