@@ -1,0 +1,3 @@
+Avg rating is bad
+Avg price is around £27
+Data is numbers and class so onehotencoder? 
