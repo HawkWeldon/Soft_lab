@@ -1,3 +1,4 @@
-Avg rating is bad
-Avg price is around £27
+Avg rating is avg
+Avg price is around £34
 Data is numbers and class so onehotencoder? 
+I think it is uniform distro
