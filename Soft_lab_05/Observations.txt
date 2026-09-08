@@ -1,0 +1,7 @@
+The data is heavily correlated.
+We could use linear reg because of it's somewhat linear increase.
+It happens in steps so random forest and decission trees would also do good.
+A lot of products have have low prices ie right skew.
+A lot of products also have low discounts ie right skew.
+Avg over authors does not change the skew of products.
+Higest price and discount are in the notebook.
