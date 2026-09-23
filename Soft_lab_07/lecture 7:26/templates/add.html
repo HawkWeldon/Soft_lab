@@ -1,0 +1,19 @@
+<h1>Add Student</h1>
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+
+    <p>{{ form.name.label }} {{ form.name() }}</p>
+    <p>{{ form.course.label }} {{ form.course() }}</p>
+    <p>{{ form.marks.label }} {{ form.marks() }}</p>
+
+    {% for field_errors in form.errors.values() %}
+        {% for error in field_errors %}
+            <p style="color:red">{{ error }}</p>
+        {% endfor %}
+    {% endfor %}
+
+    {{ form.submit() }}
+</form>
+
+<a href="{{ url_for('index') }}">Back to list</a>

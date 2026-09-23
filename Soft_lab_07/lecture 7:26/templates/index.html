@@ -1,0 +1,11 @@
+<h1>Student List</h1>
+<form method="GET">
+    <input type="text" name="search" value="{{ search_text }}" placeholder="Search by name">
+    <button type="submit">Search</button>
+</form>
+<a href="{{ url_for('add_student') }}">Add new student</a>
+<ul>{% for student in students %}
+        <li>{{ student.name }} - {{ student.course }} - {{ student.marks }}</li>
+    {% else %}
+        <li>No students found.</li>
+    {% endfor %}    </ul>
