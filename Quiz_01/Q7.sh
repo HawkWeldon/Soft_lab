@@ -5,7 +5,7 @@ ULR()
     usr="$1"
 
     echo "All users logged in"
-    who
+    who | head -n 1
     echo ""
 
     echo "login time for each"
