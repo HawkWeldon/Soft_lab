@@ -1,0 +1,33 @@
+Date & Time
+Monday 28 September 2026 08:47:53 PM IST
+
+User logged in
+hawk
+
+Host
+nixos
+
+Current dir
+/run/media/hawk/D-drive/Fox/Soft_lab/Quiz_01
+
+Available disk space
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme1n1p2  915G  234G  636G  27% /
+tmpfs           7.7G  6.7M  7.7G   1% /run
+devtmpfs        1.6G     0  1.6G   0% /dev
+tmpfs            16G  184M   16G   2% /dev/shm
+efivarfs        128K   25K   99K  21% /sys/firmware/efi/efivars
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs            16G  1.2M   16G   1% /run/wrappers
+/dev/nvme1n1p1 1022M  314M  709M  31% /boot
+tmpfs           3.1G  5.9M  3.1G   1% /run/user/1000
+/dev/nvme0n1    916G   12G  859G   2% /run/media/hawk/D-drive
+
+Available memory
+               total        used        free      shared  buff/cache   available
+Mem:        32100180     8783804    17915344      235388     6098860    23316376
+Swap:              0           0           0
+
+Uptime
+ 20:47:53  up 3 days 22:34,  1 user,  load average: 0.80, 0.54, 0.52
+
