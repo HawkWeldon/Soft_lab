@@ -1,5 +1,5 @@
 All users logged in
-hawk     tty1         2026-09-24 22:13 (:0)
+hawk
 
 login time for each
 2026-09-24 22:13
