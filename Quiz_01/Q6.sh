@@ -31,4 +31,4 @@ SIR()
     echo""
 }
 
-SIR > text.txt
+SIR > Q6.txt

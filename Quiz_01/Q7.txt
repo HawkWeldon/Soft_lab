@@ -1,0 +1,30 @@
+All users logged in
+hawk     tty1         2026-09-24 22:13 (:0)
+
+login time for each
+2026-09-24 22:13
+
+Number logged in
+1
+
+Is hawk logged in ?
+yes
+
+last 10 users logged in
+hawk
+reboot
+hawk
+hawk
+reboot
+hawk
+reboot
+reboot
+hawk
+reboot
+
+no of unique logged in users
+5
+
+last login
+hawk
+
