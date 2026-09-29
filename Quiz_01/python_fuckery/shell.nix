@@ -9,11 +9,20 @@ pkgs.mkShell
 {
   packages = with pkgs;[
                         espeak-ng 
-                        (pkgs.python313.withPackages (ps: with ps;[   pypdf2
+                        (pkgs.python313.withPackages (ps: with ps;[   openpyxl
+                                                                      requests
+                                                                      pandas
+                                                                      beautifulsoup4
+                                                                      matplotlib
+                                                                      seaborn
+                                                                      ipykernel
+                                                                      jupyter
+                                                                      pypdf2
                                                                       openpyxl
                                                                       pypdf2
                                                                       pyttsx3
-                                                                      flask  ]
+                                                                      flask  
+                                                                               ]
                                                                                 ))
                                                                                   ];
   LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [pkgs.espeak-ng];
