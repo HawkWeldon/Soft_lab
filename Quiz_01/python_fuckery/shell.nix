@@ -22,8 +22,9 @@ pkgs.mkShell
                                                                       pypdf2
                                                                       pyttsx3
                                                                       flask  
-                                                                               ]
-                                                                                ))
-                                                                                  ];
+                                                                      pyperclip
+                                                                                      ]
+                                                                                        ))
+                                                                                          ];
   LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [pkgs.espeak-ng];
 }
