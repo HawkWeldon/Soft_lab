@@ -1,9 +1,9 @@
 ----------------------SYS----------------------
-Date and time       :2026-09-01 00:41:43.243094
-Logged-in Usrs      :hawk
-Hostname            :nixos
-Working dir         :/run/media/hawk/D-drive/Fox/Soft_lab/Soft_lab_04
-Available Dsk space : 641.826782 GB
-Available Mem       : 19.890427 GB
-System Uptime       : 2 days, 2 hrs, 7 mins
+Date and time       : 2026-10-05 17:27:26.224523
+Logged-in Usrs      : hawk
+Hostname            : nixos
+Working dir         : /run/media/hawk/D-drive/Fox/Soft_lab/Soft_lab_04
+Available Dsk space : 639.435410 GB
+Available Mem       : 12.747219 GB
+System Uptime       : 10 days, 19 hrs, 13 mins
 ----------------------SYS----------------------
